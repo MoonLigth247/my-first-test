@@ -1,7 +1,8 @@
 # Лаборатори №1 — UI автомат тест (Playwright)
 
 **F.CSA313 — Программ хангамжийн чанарын баталгаа ба тест (2026)**
-
+Оюутан нэр : Н.Мөнхбаяр
+Код : B242270058
 ## Юу хийсэн бэ
 
 Энэ репозиторид [SauceDemo](https://www.saucedemo.com) демо дэлгүүрийн нэвтрэх хуудасны
@@ -21,8 +22,8 @@
 ```
 my-first-test/
 ├── tests/
-│   └── login.spec.ts       # 3 тест: positive, negative, post-login action
-├── playwright.config.ts    # chromium/firefox/webkit, trace, video тохиргоо
+│   └── login.spec.ts      
+├── playwright.config.ts   
 ├── tsconfig.json
 ├── package.json
 └── .gitignore
@@ -30,14 +31,13 @@ my-first-test/
 
 ### Ажиллуулах заавар
 
-```bash
 npm install
-npx playwright install       # хөтчүүдийг татах (эхний удаад)
-npx playwright test          # бүх тестийг ажиллуулах
-npx playwright show-report   # HTML тайланг үзэх
-npx playwright test --trace on   # trace-тэй ажиллуулах
+npx playwright install      
+npx playwright test         
+npx playwright show-report  
+npx playwright test --trace on  
 npx playwright show-trace test-results/.../trace.zip
-```
+
 
 > Тайлбар: энэ репо Claude-ийн sandbox орчинд бэлдэгдсэн бөгөөд тухайн орчны сүлжээний
 > хязгаарлалтаас шалтгаалан `cdn.playwright.dev`-ээс browser binary татах боломжгүй байсан

@@ -1,7 +1,7 @@
 {
   "name": "my-first-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "**F.CSA313 — Программ хангамжийн чанарын баталгаа ба тест (2026)** Оюутан нэр : Н.Мөнхбаяр Код : B242270058 ## Юу хийсэн бэ",
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
@@ -13,7 +13,24 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.63.0",
+    "@playwright/test": "^1.65.1",
     "@types/node": "^26.5.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0",
+    "playwright-core": "^1.63.0",
+    "undici-types": "^8.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonLigth247/my-first-test.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MoonLigth247/my-first-test/issues"
+  },
+  "homepage": "https://github.com/MoonLigth247/my-first-test#readme"
 }
