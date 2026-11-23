@@ -6,9 +6,12 @@
 
 ## Орчин
 
-debain13@debian:~/my-first-test$ node -v
+node -v
+
 v24.21.0
-debain13@debian:~/my-first-test$ npx playwright --version
+
+npx playwright --version
+
 Version 1.65.1
 
 ## Юу хийсэн бэ
