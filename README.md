@@ -3,6 +3,14 @@
 **F.CSA313 — Программ хангамжийн чанарын баталгаа ба тест (2026)**
 Оюутан нэр : Н.Мөнхбаяр
 Код : B242270058
+
+## Орчин
+
+debain13@debian:~/my-first-test$ node -v
+v24.21.0
+debain13@debian:~/my-first-test$ npx playwright --version
+Version 1.65.1
+
 ## Юу хийсэн бэ
 
 Энэ репозиторид [SauceDemo](https://www.saucedemo.com) демо дэлгүүрийн нэвтрэх хуудасны
