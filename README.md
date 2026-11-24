@@ -12,7 +12,7 @@ node -v
 v24.21.0
 
 npx playwright --version
-=======
+
 debain13@debian:~/my-first-test$ node -v
 
 v24.21.0
