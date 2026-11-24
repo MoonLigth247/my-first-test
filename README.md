@@ -19,7 +19,6 @@ v24.21.0
 
 
 debain13@debian:~/my-first-test$ npx playwright --version
->>>>>>> d2860f8 (zasvar)
 
 Version 1.65.1
 
