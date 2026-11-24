@@ -6,11 +6,20 @@
 
 ## Орчин
 
+<<<<<<< HEAD
 node -v
 
 v24.21.0
 
 npx playwright --version
+=======
+debain13@debian:~/my-first-test$ node -v
+
+v24.21.0
+
+
+debain13@debian:~/my-first-test$ npx playwright --version
+>>>>>>> d2860f8 (zasvar)
 
 Version 1.65.1
 
@@ -34,26 +43,28 @@ Version 1.65.1
 my-first-test/
 ├── tests/
 │   └── login.spec.ts      
-├── playwright.config.ts   
-├── tsconfig.json
-├── package.json
-└── .gitignore
+├── package.json  
+├── package-lock.json
+├── artifacts
+    └──failed-trace.zip
+├── playwright.config.ts
+├── playwright-report
+├── Screenshot 
+├── README.md 
+├── tests
+├── test-results 
+├── node_modules 
+└── .gitignore 
 ```
 
 ### Ажиллуулах заавар
 
 npm install
-npx playwright install      
-npx playwright test         
-npx playwright show-report  
-npx playwright test --trace on  
+npx playwright install
+npx playwright test 
+npx playwright show-report 
+npx playwright test --trace on 
 npx playwright show-trace test-results/.../trace.zip
-
-
-> Тайлбар: энэ репо Claude-ийн sandbox орчинд бэлдэгдсэн бөгөөд тухайн орчны сүлжээний
-> хязгаарлалтаас шалтгаалан `cdn.playwright.dev`-ээс browser binary татах боломжгүй байсан
-> тул `npx playwright test`-ийг өөрийн машин дээр ажиллуулж, HTML report/trace/видеог
-> нэмж хадгал (лабораторийн 4, 6-р алхмын шаардлагын дагуу).
 
 ## Playwright ба Selenium харьцуулсан ажиглалт
 
